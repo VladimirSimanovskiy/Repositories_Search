@@ -1,7 +1,4 @@
-//import { getRepositories } from "./getRepositories";
-
 export function getKeyWords() {
-  //const submit = document.getElementById('submit');
   const keyWords = document.getElementById('key_words');
 
   // очистка стиля ошибок при фокусе
@@ -23,10 +20,6 @@ export function getKeyWords() {
 
 
   return keyWords.value;
-  /*
-  submit.onclick = function() {
-
-  }*/
 }
 
 function isValidRequest(words) {
@@ -62,5 +55,4 @@ function createInvalidMessage(textMessage) {
   if (invalidRequest.nextSibling.className != 'invalid_value') {
     invalidRequest.after(invalidValue);
   }
-
 }

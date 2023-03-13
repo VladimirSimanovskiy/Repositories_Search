@@ -314,7 +314,7 @@ body {
     height: calc(100vh - 4rem);
     transform: translateX(-100%);
     transition: transform 0.2s linear;
-    padding-bottom: 2.5rem;
+    padding-bottom: 8rem;
     overflow: auto;
   }
   .show-sidebar .sidebar {
